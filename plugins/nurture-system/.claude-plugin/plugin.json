@@ -1,0 +1,19 @@
+{
+  "name": "nurture-system",
+  "version": "1.0.0",
+  "description": "Preview — For when the buyer asks to build, fix, or modernize B2B email nurture. Triggers on \"nurture\", \"drip\", \"email automation\", \"re-engagement\", \"dormant accounts\", \"retargeting\", \"post-MQL workflow\".",
+  "author": {
+    "name": "Artemis GTM",
+    "email": "tom@artemisgtm.ai",
+    "url": "https://artemisgtm.ai"
+  },
+  "homepage": "https://artemisgtm.ai/agents/nurture-system",
+  "license": "UNLICENSED",
+  "keywords": [
+    "gtm",
+    "b2b",
+    "sales",
+    "revops",
+    "go-to-market"
+  ]
+}

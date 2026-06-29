@@ -1,0 +1,19 @@
+{
+  "name": "qualification-automation-system",
+  "version": "1.0.0",
+  "description": "Preview — For when the buyer asks to build lead qualification automation, fix the MQL-to-SQL handoff, set up BDR queue prioritization with BANT/MEDDIC. Triggers on \"qualification\", \"MQL to SQL\", \"BANT\", \"MEDDIC\", \"BDR routing\", \"handoff broken\".",
+  "author": {
+    "name": "Artemis GTM",
+    "email": "tom@artemisgtm.ai",
+    "url": "https://artemisgtm.ai"
+  },
+  "homepage": "https://artemisgtm.ai/agents/qualification-automation-system",
+  "license": "UNLICENSED",
+  "keywords": [
+    "gtm",
+    "b2b",
+    "sales",
+    "revops",
+    "go-to-market"
+  ]
+}

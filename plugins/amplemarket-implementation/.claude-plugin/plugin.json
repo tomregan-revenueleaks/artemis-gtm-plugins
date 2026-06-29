@@ -1,0 +1,19 @@
+{
+  "name": "amplemarket-implementation",
+  "version": "1.0.0",
+  "description": "Preview — For when the buyer bought Amplemarket and needs it stood up end-to-end inside Claude. Triggers on \"Start my Amplemarket Implementation engagement\", \"set up Amplemarket\", \"implement Amplemarket\", \"connect the Amplemarket MCP\", \"stand up my Amplemarket account\", \"go live on Amplemarket\".",
+  "author": {
+    "name": "Artemis GTM",
+    "email": "tom@artemisgtm.ai",
+    "url": "https://artemisgtm.ai"
+  },
+  "homepage": "https://artemisgtm.ai/agents/amplemarket-implementation",
+  "license": "UNLICENSED",
+  "keywords": [
+    "gtm",
+    "b2b",
+    "sales",
+    "revops",
+    "go-to-market"
+  ]
+}

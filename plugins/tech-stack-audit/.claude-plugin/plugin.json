@@ -1,0 +1,19 @@
+{
+  "name": "tech-stack-audit",
+  "version": "1.0.0",
+  "description": "Preview — For when the buyer asks to audit, consolidate, or modernize their B2B GTM tech stack. Triggers on \"audit my stack\", \"tool consolidation\", \"we have too many tools\", \"renewal coming up\", \"stack rationalization\".",
+  "author": {
+    "name": "Artemis GTM",
+    "email": "tom@artemisgtm.ai",
+    "url": "https://artemisgtm.ai"
+  },
+  "homepage": "https://artemisgtm.ai/agents/tech-stack-audit",
+  "license": "UNLICENSED",
+  "keywords": [
+    "gtm",
+    "b2b",
+    "sales",
+    "revops",
+    "go-to-market"
+  ]
+}
