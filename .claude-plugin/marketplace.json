@@ -5,7 +5,7 @@
     "email": "tom@artemisgtm.ai",
     "url": "https://artemisgtm.ai"
   },
-  "description": "Artemis GTM consulting agents for Claude Code — free B2B revenue-leak diagnostics plus previews of the paid GTM playbook agents.",
+  "description": "Artemis GTM consulting agents for Claude Code: free B2B revenue-leak diagnostics plus previews of the paid GTM playbook agents.",
   "metadata": {
     "pluginRoot": "./plugins"
   },
@@ -13,79 +13,85 @@
     {
       "name": "gtm-audit",
       "source": "./plugins/gtm-audit",
-      "description": "GTM Audit — free Artemis GTM diagnostic agent.",
+      "description": "GTM Audit, free Artemis GTM diagnostic agent.",
+      "category": "diagnostic"
+    },
+    {
+      "name": "gtm-engineer",
+      "source": "./plugins/gtm-engineer",
+      "description": "GTM Engineer, free Artemis GTM diagnostic agent.",
       "category": "diagnostic"
     },
     {
       "name": "ai-revops-system",
       "source": "./plugins/ai-revops-system",
-      "description": "Preview of the paid AI RevOps System agent — full version at https://artemisgtm.ai/agents/ai-revops-system.",
+      "description": "Preview of the paid AI RevOps System agent. Full version at https://artemisgtm.ai/agents/ai-revops-system.",
       "category": "paid-preview"
     },
     {
       "name": "amplemarket-implementation",
       "source": "./plugins/amplemarket-implementation",
-      "description": "Preview of the paid Amplemarket Implementation agent — full version at https://artemisgtm.ai/agents/amplemarket-implementation.",
+      "description": "Preview of the paid Amplemarket Implementation agent. Full version at https://artemisgtm.ai/agents/amplemarket-implementation.",
       "category": "paid-preview"
     },
     {
       "name": "content-system",
       "source": "./plugins/content-system",
-      "description": "Preview of the paid Content System agent — full version at https://artemisgtm.ai/agents/content-system.",
+      "description": "Preview of the paid Content System agent. Full version at https://artemisgtm.ai/agents/content-system.",
       "category": "paid-preview"
     },
     {
       "name": "conversion-content-system",
       "source": "./plugins/conversion-content-system",
-      "description": "Preview of the paid Conversion Content System agent — full version at https://artemisgtm.ai/agents/conversion-content-system.",
+      "description": "Preview of the paid Conversion Content System agent. Full version at https://artemisgtm.ai/agents/conversion-content-system.",
       "category": "paid-preview"
     },
     {
       "name": "icp-definition",
       "source": "./plugins/icp-definition",
-      "description": "Preview of the paid ICP Definition agent — full version at https://artemisgtm.ai/agents/icp-definition.",
+      "description": "Preview of the paid ICP Definition agent. Full version at https://artemisgtm.ai/agents/icp-definition.",
       "category": "paid-preview"
     },
     {
       "name": "lead-scoring",
       "source": "./plugins/lead-scoring",
-      "description": "Preview of the paid Lead Scoring agent — full version at https://artemisgtm.ai/agents/lead-scoring.",
+      "description": "Preview of the paid Lead Scoring agent. Full version at https://artemisgtm.ai/agents/lead-scoring.",
       "category": "paid-preview"
     },
     {
       "name": "nurture-system",
       "source": "./plugins/nurture-system",
-      "description": "Preview of the paid Nurture System agent — full version at https://artemisgtm.ai/agents/nurture-system.",
+      "description": "Preview of the paid Nurture System agent. Full version at https://artemisgtm.ai/agents/nurture-system.",
       "category": "paid-preview"
     },
     {
       "name": "outbound-system",
       "source": "./plugins/outbound-system",
-      "description": "Preview of the paid Outbound System agent — full version at https://artemisgtm.ai/agents/outbound-system.",
+      "description": "Preview of the paid Outbound System agent. Full version at https://artemisgtm.ai/agents/outbound-system.",
       "category": "paid-preview"
     },
     {
       "name": "qualification-automation-system",
       "source": "./plugins/qualification-automation-system",
-      "description": "Preview of the paid Qualification Automation System agent — full version at https://artemisgtm.ai/agents/qualification-automation-system.",
+      "description": "Preview of the paid Qualification Automation System agent. Full version at https://artemisgtm.ai/agents/qualification-automation-system.",
       "category": "paid-preview"
     },
     {
       "name": "speed-to-lead",
       "source": "./plugins/speed-to-lead",
-      "description": "Preview of the paid Speed To Lead agent — full version at https://artemisgtm.ai/agents/speed-to-lead.",
+      "description": "Preview of the paid Speed To Lead agent. Full version at https://artemisgtm.ai/agents/speed-to-lead.",
       "category": "paid-preview"
     },
     {
       "name": "tech-stack-audit",
       "source": "./plugins/tech-stack-audit",
-      "description": "Preview of the paid Tech Stack Audit agent — full version at https://artemisgtm.ai/agents/tech-stack-audit.",
+      "description": "Preview of the paid Tech Stack Audit agent. Full version at https://artemisgtm.ai/agents/tech-stack-audit.",
       "category": "paid-preview"
     },
     {
       "name": "visitor-deanonymization",
       "source": "./plugins/visitor-deanonymization",
-      "description": "Preview of the paid Visitor Deanonymization agent — full version at https://artemisgtm.ai/agents/visitor-deanonymization.",
+      "description": "Preview of the paid Visitor Deanonymization agent. Full version at https://artemisgtm.ai/agents/visitor-deanonymization.",
       "category": "paid-preview"
     }
   ]

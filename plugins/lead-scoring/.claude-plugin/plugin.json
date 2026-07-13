@@ -1,7 +1,7 @@
 {
   "name": "lead-scoring",
   "version": "1.0.0",
-  "description": "Preview — For when the buyer asks to build, fix, or refresh a B2B lead scoring system. Triggers on \"lead scoring\", \"score my leads\", \"fit model + intent model\", \"BDR queue prioritization\", \"MQL quality\", \"scoring threshold\".",
+  "description": "Preview: For when the buyer asks to build, fix, or refresh a B2B lead scoring system. Triggers on \"lead scoring\", \"score my leads\", \"fit model + intent model\", \"BDR queue prioritization\", \"MQL quality\", \"scoring threshold\".",
   "author": {
     "name": "Artemis GTM",
     "email": "tom@artemisgtm.ai",

@@ -1,7 +1,7 @@
 {
   "name": "content-system",
   "version": "1.0.0",
-  "description": "Preview — For when the buyer asks to build their B2B content engine, fix non-ranking content, set up SEO/AEO/GEO structure, build an editorial calendar, or improve AI citation share-of-voice. Triggers on \"content strategy\", \"editorial calendar\", \"content pillars\", \"AI citations\", \"ChatGPT cite me\".",
+  "description": "Preview: For when the buyer asks to build their B2B content engine, fix non-ranking content, set up SEO/AEO/GEO structure, build an editorial calendar, or improve AI citation share-of-voice. Triggers on \"content strategy\", \"editorial calendar\", \"content pillars\", \"AI citations\", \"ChatGPT cite me\".",
   "author": {
     "name": "Artemis GTM",
     "email": "tom@artemisgtm.ai",

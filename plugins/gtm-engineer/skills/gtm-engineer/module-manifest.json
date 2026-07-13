@@ -1,0 +1,199 @@
+{
+  "_comment": "BUILD-GENERATED from src/lib/skills.ts by scripts/generate-module-manifest.cjs. Do not edit by hand. This is the only authoritative price carrier for the AI GTM Engineer (plan ss2c, ss12.1); the agent quotes per-module AND per-bundle prices from here at runtime. Regenerate: node scripts/generate-module-manifest.cjs",
+  "generated": "2026-07-02",
+  "source": "src/lib/skills.ts",
+  "consultingBookingUrl": "https://calendly.com/tom-artemisgtm/artemis-gtm-consulting",
+  "modules": {
+    "modules/icp": {
+      "legacySlug": "icp-definition",
+      "price": "$1,500",
+      "priceCents": 150000,
+      "tier": "foundational",
+      "checkoutUrl": "https://artemisgtm.ai/agents/icp-definition/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/scoring": {
+      "legacySlug": "lead-scoring",
+      "price": "$349",
+      "priceCents": 34900,
+      "tier": "tactical",
+      "checkoutUrl": "https://artemisgtm.ai/agents/lead-scoring/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/qualification": {
+      "legacySlug": "qualification-automation-system",
+      "price": "$899",
+      "priceCents": 89900,
+      "tier": "system",
+      "checkoutUrl": "https://artemisgtm.ai/agents/qualification-automation-system/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/speed-to-lead": {
+      "legacySlug": "speed-to-lead",
+      "price": "$349",
+      "priceCents": 34900,
+      "tier": "tactical",
+      "checkoutUrl": "https://artemisgtm.ai/agents/speed-to-lead/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/visitor-id": {
+      "legacySlug": "visitor-deanonymization",
+      "price": "$349",
+      "priceCents": 34900,
+      "tier": "tactical",
+      "checkoutUrl": "https://artemisgtm.ai/agents/visitor-deanonymization/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/outbound": {
+      "legacySlug": "outbound-system",
+      "price": "$899",
+      "priceCents": 89900,
+      "tier": "system",
+      "checkoutUrl": "https://artemisgtm.ai/agents/outbound-system/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/nurture": {
+      "legacySlug": "nurture-system",
+      "price": "$899",
+      "priceCents": 89900,
+      "tier": "system",
+      "checkoutUrl": "https://artemisgtm.ai/agents/nurture-system/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/content": {
+      "legacySlug": "content-system",
+      "price": "$899",
+      "priceCents": 89900,
+      "tier": "system",
+      "checkoutUrl": "https://artemisgtm.ai/agents/content-system/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/conversion": {
+      "legacySlug": "conversion-content-system",
+      "price": "$899",
+      "priceCents": 89900,
+      "tier": "system",
+      "checkoutUrl": "https://artemisgtm.ai/agents/conversion-content-system/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/stack": {
+      "legacySlug": "tech-stack-audit",
+      "price": "$349",
+      "priceCents": 34900,
+      "tier": "tactical",
+      "checkoutUrl": "https://artemisgtm.ai/agents/tech-stack-audit/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/revops": {
+      "legacySlug": "ai-revops-system",
+      "price": "$1,500",
+      "priceCents": 150000,
+      "tier": "foundational",
+      "checkoutUrl": "https://artemisgtm.ai/agents/ai-revops-system/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    },
+    "modules/amplemarket": {
+      "legacySlug": "amplemarket-implementation",
+      "price": "$999",
+      "priceCents": 99900,
+      "tier": "implementation",
+      "checkoutUrl": "https://artemisgtm.ai/agents/amplemarket-implementation/",
+      "installCommand": "ARTEMIS_LICENSE_KEY=<license-key> npx artemis-skills-installer"
+    }
+  },
+  "bundles": {
+    "launch-trio": {
+      "slug": "launch-trio",
+      "name": "Launch Trio Bundle",
+      "price": "$1,299",
+      "priceCents": 129900,
+      "memberSlugs": [
+        "icp-definition",
+        "speed-to-lead",
+        "visitor-deanonymization",
+        "lead-scoring"
+      ],
+      "memberModuleDirs": [
+        "modules/icp",
+        "modules/speed-to-lead",
+        "modules/visitor-id",
+        "modules/scoring"
+      ],
+      "checkoutUrl": "https://artemisgtm.ai/agents/launch-trio/"
+    },
+    "complete-gtm-system": {
+      "slug": "complete-gtm-system",
+      "name": "The GTM System",
+      "price": "$2,497",
+      "priceCents": 249700,
+      "memberSlugs": [
+        "icp-definition",
+        "content-system",
+        "outbound-system",
+        "nurture-system",
+        "conversion-content-system",
+        "qualification-automation-system",
+        "ai-revops-system"
+      ],
+      "memberModuleDirs": [
+        "modules/icp",
+        "modules/content",
+        "modules/outbound",
+        "modules/nurture",
+        "modules/conversion",
+        "modules/qualification",
+        "modules/revops"
+      ],
+      "checkoutUrl": "https://artemisgtm.ai/agents/complete-gtm-system/"
+    },
+    "gtm-engineer-complete": {
+      "slug": "gtm-engineer-complete",
+      "name": "The AI GTM Engineer, Complete",
+      "price": "$4,995",
+      "priceCents": 499500,
+      "memberSlugs": [
+        "icp-definition",
+        "lead-scoring",
+        "qualification-automation-system",
+        "speed-to-lead",
+        "visitor-deanonymization",
+        "outbound-system",
+        "nurture-system",
+        "content-system",
+        "conversion-content-system",
+        "tech-stack-audit",
+        "ai-revops-system",
+        "amplemarket-implementation"
+      ],
+      "memberModuleDirs": [
+        "modules/icp",
+        "modules/scoring",
+        "modules/qualification",
+        "modules/speed-to-lead",
+        "modules/visitor-id",
+        "modules/outbound",
+        "modules/nurture",
+        "modules/content",
+        "modules/conversion",
+        "modules/stack",
+        "modules/revops",
+        "modules/amplemarket"
+      ],
+      "checkoutUrl": "https://artemisgtm.ai/agents/gtm-engineer-complete/"
+    }
+  },
+  "legacySlugToModuleDir": {
+    "icp-definition": "modules/icp",
+    "lead-scoring": "modules/scoring",
+    "qualification-automation-system": "modules/qualification",
+    "speed-to-lead": "modules/speed-to-lead",
+    "visitor-deanonymization": "modules/visitor-id",
+    "outbound-system": "modules/outbound",
+    "nurture-system": "modules/nurture",
+    "content-system": "modules/content",
+    "conversion-content-system": "modules/conversion",
+    "tech-stack-audit": "modules/stack",
+    "ai-revops-system": "modules/revops",
+    "amplemarket-implementation": "modules/amplemarket"
+  }
+}
