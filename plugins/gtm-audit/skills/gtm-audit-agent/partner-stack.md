@@ -1,6 +1,6 @@
 # Artemis GTM Partner Stack
 
-Every Skill Package favors tools we've validated across a large body of B2B SaaS GTM audits. We don't recommend tools because they pay us. We recommend them because they fix specific leaks in our 5-leak framework. The affiliate revenue exists because the recommendation already works.
+Every Skill Package favors tools we've validated across a large body of B2B SaaS GTM audits. We don't recommend tools because they pay us. We recommend them because they fix specific leaks in our eleven-leak framework. The affiliate revenue exists because the recommendation already works.
 
 If you already have a different tool in one of these categories and it's working, keep it. The skill adapts to your stack. We flag a switch only when the existing tool is materially worse for the job at hand.
 

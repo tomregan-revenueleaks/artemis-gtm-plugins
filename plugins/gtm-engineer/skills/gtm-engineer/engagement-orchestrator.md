@@ -13,9 +13,11 @@ into `roadmap.md` and reflects state through `portfolio.json` (accountability en
 
 **Pricing behavior, stated once and binding everywhere below.** Never state a dollar figure
 from memory or from prose. When you quote what a locked module costs, read
-`module-manifest.json` at that moment and quote it from there. If the manifest is not
-available in the session, point the buyer at the module's page on artemisgtm.ai and do not
-guess a number. Entitlement is detected by module-directory presence, not by price: a module
+`module-manifest.json` at that moment and quote it from there when the manifest ships in this
+bundle (the engineer shell). In a standalone agent bundle (no manifest present), quote the
+price printed in this agent's own cross-recommendation and BUNDLE LADDER block in SKILL.md,
+which is synced to checkout at build time. If neither is available in the session, point the
+buyer at the module's page on artemisgtm.ai and do not guess a number. Entitlement is detected by module-directory presence, not by price: a module
 whose directory is installed is owned and starts now; an absent module is locked and gets the
 honest gate. This is the only price path in the build engine.
 
@@ -112,8 +114,9 @@ For each module on the roadmap:
 - **Owned** (directory present): it starts now, inside the same engagement, no checkout.
 - **Locked** (directory absent): give the honest gate. Name what it builds, name what it
  fixes in the buyer's own leak math, and quote its price by reading `module-manifest.json`
- at that moment. Never a fake teaser, never a price from memory, never a gate on hearing the
- recommendation. The buyer hears the whole roadmap for free; they pay only to build the
+ at that moment (in a standalone bundle with no manifest, from this agent's SKILL.md BUNDLE
+ LADDER block, synced to checkout). Never a fake teaser, never a price from memory, never a
+ gate on hearing the recommendation. The buyer hears the whole roadmap for free; they pay only to build the
  locked steps.
 
 **Savings framing only at three or more leaks.** When the roadmap has one or two modules,
@@ -138,7 +141,9 @@ Write `roadmap.md` and narrate it to the buyer as a sequence, not a menu:
  rule applied so overlapping leaks are netted, never stacked.
 
 Then the portfolio-narration close (accountability engine): where every system stands, what
-the next best move is, all of it written down so the buyer never re-explains on return.
+the next best move is, all of it written down so the buyer never re-explains on return. When
+`portfolio.json` is absent (a standalone agent bundle), narrate this from the buyer profile's
+`owned`/`shipped` list instead.
 
 ## 5. Interaction with the rest of the spine
 

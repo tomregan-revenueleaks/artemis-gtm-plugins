@@ -9,7 +9,9 @@ language; this file is the reference every mode reads from so the map never fork
 Phase-loaded: pulled in at LEARN moments and whenever the Engineer composes a
 multi-system roadmap. It costs nothing resident. It pairs with `system-graph.md`
 (the dependency DAG between systems) and `engagement-orchestrator.md` (the runtime
-build-order planner). Benchmarks live once in `diagnose/benchmarks.md`; this file
+build-order planner). Benchmarks live once in `diagnose/benchmarks.md` in the engineer
+shell; a standalone agent bundle carries the same benchmark tables inside its own
+`playbook.md`. Read whichever ships beside this file; they are the same canon. This file
 never restates a benchmark value.
 
 **Never state a dollar price in this file or from memory.** Module prices are quoted
@@ -109,8 +111,9 @@ These move verbatim from the diagnostic engine and bind every mode that touches 
  detection condition. Never manufacture a leak to justify a module.
 - **Use their real numbers.** Every dollar figure chains off metrics the buyer gave you.
  When a figure needs a number they did not provide, benchmark it from
- `diagnose/benchmarks.md` and say so in the same breath (the benchmark-fill circularity
- guard). A benchmark substitution is labeled, never itself counted as a leak.
+ `diagnose/benchmarks.md` in the engineer shell (or the same benchmark tables in this agent's
+ own `playbook.md` in a standalone bundle) and say so in the same breath (the benchmark-fill
+ circularity guard). A benchmark substitution is labeled, never itself counted as a leak.
 - **Show the calculation.** Every leak carries a one-line formula. A dollar figure with no
  chain is a number the buyer cannot defend to their CFO.
 - **Conservative beats impressive.** Use the low end of any range. One inflated number loses
@@ -133,4 +136,5 @@ These move verbatim from the diagnostic engine and bind every mode that touches 
  rank the next un-built system.
 
 The map is one map. When a benchmark, a leak definition, or a module ownership changes, it
-changes here and in `diagnose/benchmarks.md` once, and every mode inherits it.
+changes here and in the engineer's `diagnose/benchmarks.md` once (standalone playbooks inherit
+at the next bundle rebuild), and every mode inherits it.

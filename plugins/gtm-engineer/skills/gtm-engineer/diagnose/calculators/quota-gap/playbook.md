@@ -107,7 +107,7 @@ This phase is where the agent earns its keep over the website form. Ask, one at 
 
 ## Phase 3: Coverage & Gap (the backward math)
 
-This is the heart of the diagnostic. Every formula here is lifted directly from the live calculator (`QuotaGap.tsx`) so the agent produces the SAME numbers the website does, then goes deeper by netting out current pipeline and making coverage win-rate-aware. You can run it yourself or delegate the arithmetic to the **gap-quantifier** sub-agent and the benchmarking to the **coverage-benchmark-analyst** sub-agent.
+This is the heart of the diagnostic. Every formula here is canonical Artemis quota-gap math (the same math the website calculator ran before it was folded into the free AI GTM Engineer), so the agent produces the SAME numbers the website does, then goes deeper by netting out current pipeline and making coverage win-rate-aware. You can run it yourself or delegate the arithmetic to the **gap-quantifier** sub-agent and the benchmarking to the **coverage-benchmark-analyst** sub-agent.
 
 This is the heaviest-reasoning moment in the diagnostic. Drop the one-line model nudge from the setup coaching here before you start the backward math: "switch to the most capable model (or `/model opusplan` in Claude Code) for this part." It's the just-in-time beat the accountability engine §1 governs; place it at this boundary, not at the open.
 
